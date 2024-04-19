@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <center>
+        <h1>A Calculadora</h1>
+        <h2 id="conta"></h2> <br>
+        <input id="n1" type="number">
+        <span id="Sinal"></span>
+        <input id="n2" type="number">
+        <div class="Cor_botao">
+            <button onclick="somar()">somar</button>
+            <button onclick="subtrair()">subtrair</button>
+            <button onclick="multiplicar()">multiplicar</button>
+            <button onclick="dividir()">dividir</button>
+        </div>
+    
+        <h2><p>O resultado é: <span id="r"></span></p></h2>
+        <script src="js/interacao_dom.js"></script>
+
+    </center>
+</body>
+</html>
